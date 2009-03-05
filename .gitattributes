@@ -1,0 +1,2 @@
+*.pbxproj -diff -merge
+*.xib -diff -merge
