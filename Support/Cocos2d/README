@@ -10,7 +10,7 @@ design:
 Main features
     * Scene management (workflow)
     * Transitions between scenes
-	* Sprites
+	* Sprites and Sprite Sheets
 	* Effects: Lens, Ripple, Waves, Liquid, etc.
     * Actions (behaviours): 
 		* Trasformation Actions: Move, Rotate, Scale, Jump, etc.
@@ -33,6 +33,9 @@ Main features
     * Open Source: Compatible with open and closed source projects
     * OpenGL ES 1.1 based 
 
+Experimental features:
+    * Motion Streak / Ribbon support
+	* Sound Engine support
 
 This library does not work with the toolchain, but it
 should be easy to port it to it.

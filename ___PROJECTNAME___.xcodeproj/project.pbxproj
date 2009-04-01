@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F3B9A2D0EF2145700286867 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
+		DC663FAA0F83B1AE000B3E49 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FA70F83B1AE000B3E49 /* AtlasSprite.m */; };
+		DC663FAB0F83B1AE000B3E49 /* AtlasSpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FA90F83B1AE000B3E49 /* AtlasSpriteManager.m */; };
+		DC663FAD0F83B23A000B3E49 /* README.experimental in Resources */ = {isa = PBXBuildFile; fileRef = DC663FAC0F83B23A000B3E49 /* README.experimental */; };
+		DC663FD60F83B258000B3E49 /* PASoundListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FC70F83B258000B3E49 /* PASoundListener.m */; };
+		DC663FD70F83B258000B3E49 /* PASoundMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FC90F83B258000B3E49 /* PASoundMgr.m */; };
+		DC663FD80F83B258000B3E49 /* PASoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FCB0F83B258000B3E49 /* PASoundSource.m */; };
+		DC663FE20F83B2A2000B3E49 /* LICENSE.chipmunk in Resources */ = {isa = PBXBuildFile; fileRef = DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */; };
+		DC663FE30F83B2A2000B3E49 /* README.chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */; };
+		DC663FFE0F83B38E000B3E49 /* CocosNodeExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */; };
+		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
+		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBEF900F601EE20040855A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCBEF8F0F601EE20040855A /* MyScene.m */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
 		DCCBF1B90F6022AE0040855A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B80F6022AE0040855A /* Foundation.framework */; };
@@ -59,12 +70,9 @@
 		DCF473B10F62C70800448FB1 /* ScoreServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473450F62C70800448FB1 /* ScoreServerRequest.m */; };
 		DCF473B20F62C70800448FB1 /* DONORS in Resources */ = {isa = PBXBuildFile; fileRef = DCF473460F62C70800448FB1 /* DONORS */; };
 		DCF473B30F62C70800448FB1 /* MotionStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473490F62C70800448FB1 /* MotionStreak.m */; };
-		DCF473B40F62C70800448FB1 /* README-EXPERIMENTAL in Resources */ = {isa = PBXBuildFile; fileRef = DCF4734A0F62C70800448FB1 /* README-EXPERIMENTAL */; };
 		DCF473B50F62C70800448FB1 /* Ribbon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4734C0F62C70800448FB1 /* Ribbon.m */; };
 		DCF473B60F62C70800448FB1 /* StreakTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4734E0F62C70800448FB1 /* StreakTest.m */; };
 		DCF473B70F62C70800448FB1 /* chipmunk-docs.html in Resources */ = {isa = PBXBuildFile; fileRef = DCF473510F62C70800448FB1 /* chipmunk-docs.html */; };
-		DCF473B80F62C70800448FB1 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCF473520F62C70800448FB1 /* LICENSE.txt */; };
-		DCF473B90F62C70800448FB1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCF473530F62C70800448FB1 /* README.txt */; };
 		DCF473BA0F62C70800448FB1 /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = DCF473550F62C70800448FB1 /* chipmunk.c */; };
 		DCF473BB0F62C70800448FB1 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCF473570F62C70800448FB1 /* CMakeLists.txt */; };
 		DCF473BC0F62C70800448FB1 /* cpArbiter.c in Sources */ = {isa = PBXBuildFile; fileRef = DCF473580F62C70800448FB1 /* cpArbiter.c */; };
@@ -99,6 +107,24 @@
 		1F3B9A820EF2151B00286867 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC663FA60F83B1AE000B3E49 /* AtlasSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSprite.h; sourceTree = "<group>"; };
+		DC663FA70F83B1AE000B3E49 /* AtlasSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSprite.m; sourceTree = "<group>"; };
+		DC663FA80F83B1AE000B3E49 /* AtlasSpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSpriteManager.h; sourceTree = "<group>"; };
+		DC663FA90F83B1AE000B3E49 /* AtlasSpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSpriteManager.m; sourceTree = "<group>"; };
+		DC663FAC0F83B23A000B3E49 /* README.experimental */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.experimental; sourceTree = "<group>"; };
+		DC663FC50F83B258000B3E49 /* MyOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenALSupport.h; sourceTree = "<group>"; };
+		DC663FC60F83B258000B3E49 /* PASoundListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundListener.h; sourceTree = "<group>"; };
+		DC663FC70F83B258000B3E49 /* PASoundListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundListener.m; sourceTree = "<group>"; };
+		DC663FC80F83B258000B3E49 /* PASoundMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundMgr.h; sourceTree = "<group>"; };
+		DC663FC90F83B258000B3E49 /* PASoundMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundMgr.m; sourceTree = "<group>"; };
+		DC663FCA0F83B258000B3E49 /* PASoundSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundSource.h; sourceTree = "<group>"; };
+		DC663FCB0F83B258000B3E49 /* PASoundSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundSource.m; sourceTree = "<group>"; };
+		DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.chipmunk; sourceTree = "<group>"; };
+		DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.chipmunk.txt; sourceTree = "<group>"; };
+		DC663FFC0F83B38E000B3E49 /* CocosNodeExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosNodeExtras.h; sourceTree = "<group>"; };
+		DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosNodeExtras.m; sourceTree = "<group>"; };
+		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBEF8E0F601EE20040855A /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		DCCBEF8F0F601EE20040855A /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -195,14 +221,11 @@
 		DCF473460F62C70800448FB1 /* DONORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DONORS; sourceTree = "<group>"; };
 		DCF473480F62C70800448FB1 /* MotionStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionStreak.h; sourceTree = "<group>"; };
 		DCF473490F62C70800448FB1 /* MotionStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionStreak.m; sourceTree = "<group>"; };
-		DCF4734A0F62C70800448FB1 /* README-EXPERIMENTAL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-EXPERIMENTAL"; sourceTree = "<group>"; };
 		DCF4734B0F62C70800448FB1 /* Ribbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ribbon.h; sourceTree = "<group>"; };
 		DCF4734C0F62C70800448FB1 /* Ribbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ribbon.m; sourceTree = "<group>"; };
 		DCF4734D0F62C70800448FB1 /* StreakTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreakTest.h; sourceTree = "<group>"; };
 		DCF4734E0F62C70800448FB1 /* StreakTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreakTest.m; sourceTree = "<group>"; };
 		DCF473510F62C70800448FB1 /* chipmunk-docs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "chipmunk-docs.html"; sourceTree = "<group>"; };
-		DCF473520F62C70800448FB1 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		DCF473530F62C70800448FB1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		DCF473550F62C70800448FB1 /* chipmunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chipmunk.c; sourceTree = "<group>"; };
 		DCF473560F62C70800448FB1 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
 		DCF473570F62C70800448FB1 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -262,6 +285,8 @@
 				DCCBF1BB0F6022AE0040855A /* OpenGLES.framework in Frameworks */,
 				DCCBF1BD0F6022AE0040855A /* QuartzCore.framework in Frameworks */,
 				DCCBF1BF0F6022AE0040855A /* UIKit.framework in Frameworks */,
+				DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */,
+				DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +339,8 @@
 				DCCBF1BA0F6022AE0040855A /* OpenGLES.framework */,
 				DCCBF1BC0F6022AE0040855A /* QuartzCore.framework */,
 				DCCBF1BE0F6022AE0040855A /* UIKit.framework */,
+				DC6640040F83B3EA000B3E49 /* OpenAL.framework */,
+				DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,6 +353,20 @@
 				DCCBEF8D0F601EE20040855A /* Scenes */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC663FC40F83B258000B3E49 /* sound-engine */ = {
+			isa = PBXGroup;
+			children = (
+				DC663FC50F83B258000B3E49 /* MyOpenALSupport.h */,
+				DC663FC60F83B258000B3E49 /* PASoundListener.h */,
+				DC663FC70F83B258000B3E49 /* PASoundListener.m */,
+				DC663FC80F83B258000B3E49 /* PASoundMgr.h */,
+				DC663FC90F83B258000B3E49 /* PASoundMgr.m */,
+				DC663FCA0F83B258000B3E49 /* PASoundSource.h */,
+				DC663FCB0F83B258000B3E49 /* PASoundSource.m */,
+			);
+			path = "sound-engine";
 			sourceTree = "<group>";
 		};
 		DCCBEF8D0F601EE20040855A /* Scenes */ = {
@@ -420,13 +461,14 @@
 		DCF473470F62C70800448FB1 /* experimental */ = {
 			isa = PBXGroup;
 			children = (
-				DCF4734A0F62C70800448FB1 /* README-EXPERIMENTAL */,
+				DC663FAC0F83B23A000B3E49 /* README.experimental */,
 				DCF473480F62C70800448FB1 /* MotionStreak.h */,
 				DCF473490F62C70800448FB1 /* MotionStreak.m */,
 				DCF4734B0F62C70800448FB1 /* Ribbon.h */,
 				DCF4734C0F62C70800448FB1 /* Ribbon.m */,
 				DCF4734D0F62C70800448FB1 /* StreakTest.h */,
 				DCF4734E0F62C70800448FB1 /* StreakTest.m */,
+				DC663FC40F83B258000B3E49 /* sound-engine */,
 			);
 			path = experimental;
 			sourceTree = "<group>";
@@ -444,8 +486,8 @@
 			isa = PBXGroup;
 			children = (
 				DCF473510F62C70800448FB1 /* chipmunk-docs.html */,
-				DCF473520F62C70800448FB1 /* LICENSE.txt */,
-				DCF473530F62C70800448FB1 /* README.txt */,
+				DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */,
+				DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */,
 				DCF473540F62C70800448FB1 /* src */,
 			);
 			path = Chipmunk;
@@ -538,8 +580,14 @@
 			children = (
 				DCF472FD0F62C70800448FB1 /* CocosNode.h */,
 				DCF472FE0F62C70800448FB1 /* CocosNode.m */,
+				DC663FFC0F83B38E000B3E49 /* CocosNodeExtras.h */,
+				DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */,
 				DCF472F20F62C70800448FB1 /* AtlasNode.h */,
 				DCF472F30F62C70800448FB1 /* AtlasNode.m */,
+				DC663FA60F83B1AE000B3E49 /* AtlasSprite.h */,
+				DC663FA70F83B1AE000B3E49 /* AtlasSprite.m */,
+				DC663FA80F83B1AE000B3E49 /* AtlasSpriteManager.h */,
+				DC663FA90F83B1AE000B3E49 /* AtlasSpriteManager.m */,
 				DCF4730F0F62C70800448FB1 /* Label.h */,
 				DCF473100F62C70800448FB1 /* Label.m */,
 				DCF473110F62C70800448FB1 /* LabelAtlas.h */,
@@ -654,14 +702,14 @@
 				DCF473880F62C70800448FB1 /* AUTHORS in Resources */,
 				DCF473890F62C70800448FB1 /* CHANGELOG in Resources */,
 				DCF473B20F62C70800448FB1 /* DONORS in Resources */,
-				DCF473B40F62C70800448FB1 /* README-EXPERIMENTAL in Resources */,
 				DCF473B70F62C70800448FB1 /* chipmunk-docs.html in Resources */,
-				DCF473B80F62C70800448FB1 /* LICENSE.txt in Resources */,
-				DCF473B90F62C70800448FB1 /* README.txt in Resources */,
 				DCF473BB0F62C70800448FB1 /* CMakeLists.txt in Resources */,
 				DCF473D00F62C70800448FB1 /* LICENSE in Resources */,
 				DCF473D10F62C70800448FB1 /* README in Resources */,
 				DCF473D20F62C70800448FB1 /* fps_images.png in Resources */,
+				DC663FAD0F83B23A000B3E49 /* README.experimental in Resources */,
+				DC663FE20F83B2A2000B3E49 /* LICENSE.chipmunk in Resources */,
+				DC663FE30F83B2A2000B3E49 /* README.chipmunk.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +787,12 @@
 				DCF473CD0F62C70800448FB1 /* CJSONDeserializer.m in Sources */,
 				DCF473CE0F62C70800448FB1 /* CJSONScanner.m in Sources */,
 				DCF473CF0F62C70800448FB1 /* CJSONSerializer.m in Sources */,
+				DC663FAA0F83B1AE000B3E49 /* AtlasSprite.m in Sources */,
+				DC663FAB0F83B1AE000B3E49 /* AtlasSpriteManager.m in Sources */,
+				DC663FD60F83B258000B3E49 /* PASoundListener.m in Sources */,
+				DC663FD70F83B258000B3E49 /* PASoundMgr.m in Sources */,
+				DC663FD80F83B258000B3E49 /* PASoundSource.m in Sources */,
+				DC663FFE0F83B38E000B3E49 /* CocosNodeExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +811,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = "___PROJECTNAME___";
 				WARNING_CFLAGS = "-Wall";
@@ -773,6 +828,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = GLGravity;
 				WARNING_CFLAGS = "-Wall";

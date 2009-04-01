@@ -1,4 +1,34 @@
-version 0.7.0 - XX-Feb-2009
+version 0.7.1 - 20-Mar-2009
+ . Actions: added tags to actions (issue #222)
+ . Actions: Spawns can be Speeded (issue #257)
+ . Actions: Speed can be altered in runtime (part of issue #236)
+ . AtlasSprite: Sprite sheet implementation (issue #238)
+ . Chipmunk: cpVect is defined as a CGPoint (issue #260)
+ . CocosNode: Camera is lazy alloced (issue #94)
+ . CocosNode: addChild, removeChild:cleanup, getChildByTag family functions (issue #253)
+ . CocosNode: added better comments, cleanup code (issue #219)
+ . CocosNode: added RGB protocol: Atlas,Texture & ColorLayer conforms it (issue #234)
+ . CocosNode: fixed memory leak when removeAndStop a node with children with actions (issue #254)
+ . CocosNode: added transform local to world coordinates that supports rotation,scale & position (issue #207)
+ . CocosNode: removed scale ivar (issue #231)
+ . CocosNode: improved handling of nil parameters (issue #262)
+ . CocosLive: filter by device id (issue #223)
+ . CocosLive: category is UTF8'ized (issue #227)
+ . CocosLive: using cc_playername instead of usr_playername (issue #242)
+ . CocosLive: supports "update score" (issue #250)
+ . Demos: added performance test (issue #243)
+ . Director: FastDirector doesn't leak autoreleased objects (issue #221)
+ . Director: prevents calling startAnimation twice in a row (issue #215)
+ . Menu: can be aligned in columns / rows. Updated menu example (issue #206)
+ . Menu: MenuItem supports LabelAtlas (issue #235)
+ . Menu: MenuItemFont fixed memory leak (issue #232)
+ . Menu: MenuItem improved hit testing (issue #214)
+ . Scheduler: if signature is not correct Assert (issue #218)
+ . Sprite: correct transform anchor point (issue #216)
+ . TextureAtlas: support for texture2D (issue #161)
+ . Tools: Added perf-test results (issue #243)
+
+version 0.7.0 - 19-Feb-2009
  . Action: elapsed is a property (issue #203)
  . Actions: EaseIn/Out added. Cubic/Quad removed (issue #195)
  . Atlas: Fixed black line (issue #135 and issue #47)
@@ -20,10 +50,10 @@ version 0.7.0 - XX-Feb-2009
  . Effects: Added Effects support (Grid and TiledGrid) (issue #183)
  . Effects: Basic: StopGrid, ReuseGrid (issue #183)
  . Effects: Grid: Waves3D, FlipX3D, FlipY3D, Lens3D, Ripple3D, Liquid, Shaky3D, Waves
-				 Twirl (issue #183)
- . Effects:	Tiled: ShakyTiles3D, ShatteredTiles3D, ShuffleTiles, FadeOutTRTiles, FadeOutBLTiles,
-				FadeOutUpTiles, FadeOutDownTiles, TurnOffTiles, WavesTiles3D, JumpTiles3D
-				SplitRows, SplitCols (issue #183)
+            Twirl (issue #183)
+ . Effects: Tiled: ShakyTiles3D, ShatteredTiles3D, ShuffleTiles, FadeOutTRTiles, FadeOutBLTiles,
+            FadeOutUpTiles, FadeOutDownTiles, TurnOffTiles, WavesTiles3D, JumpTiles3D
+            SplitRows, SplitCols (issue #183)
  . Experimental: Added StreakDemo (issue #171)
  . Menu: aligItemsVerticallyOld removed. (issue #196)
  . MenuItemFont: can be changed in runtime (issue #202)
@@ -34,9 +64,8 @@ version 0.7.0 - XX-Feb-2009
  . Texture: Easier to set Alias and/or AntiAlias texture parameters (issue #135 and issue #47)
  . TileMapAtlas: it is readable / writeable now (issue #200)
  . Transitions: added new Effects transitions
-	 SplitRowsTransition, SplitColsTransition, TurnOffTilesTransition,
-	 FadeTRTransition, FadeBLTransition, FadeUpTransition, FadeDownTransition
-     (issue #187)
+                SplitRowsTransition, SplitColsTransition, TurnOffTilesTransition,
+                FadeTRTransition, FadeBLTransition, FadeUpTransition, FadeDownTransition (issue #187)
   . Xcode: treat warnings as errors (issue #201)
 
  
@@ -293,7 +322,7 @@ version 0.2 - 5-Jul-2008
  . Added particle system.
     . uses VBO + POINT_SPRITES
     . Built-in systems: Fire, Fireworks, Sun, Galaxy, Flower, Meteor, Spiral, Explosion
-	. supports: system duration, paticle duration, gravity, radial, tangential, color, size, texture, direction, spread (all of them with its variation)
+    . supports: system duration, paticle duration, gravity, radial, tangential, color, size, texture, direction, spread (all of them with its variation)
  . added support to display FPS
 
 
