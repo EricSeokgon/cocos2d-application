@@ -9,15 +9,21 @@
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F3B9A2D0EF2145700286867 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
+		DC05886C0FA4C73300B8C1AD /* cocos2d-iphone.xcclassmodel in Resources */ = {isa = PBXBuildFile; fileRef = DC05886B0FA4C73300B8C1AD /* cocos2d-iphone.xcclassmodel */; };
+		DC0588730FA4C76300B8C1AD /* cocoslive.m in Sources */ = {isa = PBXBuildFile; fileRef = DC05886E0FA4C76300B8C1AD /* cocoslive.m */; };
+		DC0588740FA4C76300B8C1AD /* ScoreServerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0588700FA4C76300B8C1AD /* ScoreServerPost.m */; };
+		DC0588750FA4C76300B8C1AD /* ScoreServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0588720FA4C76300B8C1AD /* ScoreServerRequest.m */; };
+		DC05887D0FA4C78F00B8C1AD /* MotionStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0588770FA4C78F00B8C1AD /* MotionStreak.m */; };
+		DC05887F0FA4C78F00B8C1AD /* Ribbon.m in Sources */ = {isa = PBXBuildFile; fileRef = DC05887A0FA4C78F00B8C1AD /* Ribbon.m */; };
+		DC0588800FA4C78F00B8C1AD /* StreakTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC05887C0FA4C78F00B8C1AD /* StreakTest.m */; };
+		DC0588980FA4C95E00B8C1AD /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0588970FA4C95E00B8C1AD /* FileUtils.m */; };
+		DC05889B0FA4C96A00B8C1AD /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC05889A0FA4C96A00B8C1AD /* CGPointExtension.m */; };
+		DC0588A20FA4C9D600B8C1AD /* LICENSE.chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0588A10FA4C9D600B8C1AD /* LICENSE.chipmunk.txt */; };
+		DC0588A40FA4CA2000B8C1AD /* README.experimental.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0588A30FA4CA2000B8C1AD /* README.experimental.txt */; };
+		DC0588A60FA4CA3C00B8C1AD /* LICENSE.TouchJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0588A50FA4CA3C00B8C1AD /* LICENSE.TouchJSON.txt */; };
 		DC663FAA0F83B1AE000B3E49 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FA70F83B1AE000B3E49 /* AtlasSprite.m */; };
 		DC663FAB0F83B1AE000B3E49 /* AtlasSpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FA90F83B1AE000B3E49 /* AtlasSpriteManager.m */; };
-		DC663FAD0F83B23A000B3E49 /* README.experimental in Resources */ = {isa = PBXBuildFile; fileRef = DC663FAC0F83B23A000B3E49 /* README.experimental */; };
-		DC663FD60F83B258000B3E49 /* PASoundListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FC70F83B258000B3E49 /* PASoundListener.m */; };
-		DC663FD70F83B258000B3E49 /* PASoundMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FC90F83B258000B3E49 /* PASoundMgr.m */; };
-		DC663FD80F83B258000B3E49 /* PASoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FCB0F83B258000B3E49 /* PASoundSource.m */; };
-		DC663FE20F83B2A2000B3E49 /* LICENSE.chipmunk in Resources */ = {isa = PBXBuildFile; fileRef = DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */; };
 		DC663FE30F83B2A2000B3E49 /* README.chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */; };
-		DC663FFE0F83B38E000B3E49 /* CocosNodeExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBEF900F601EE20040855A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCBEF8F0F601EE20040855A /* MyScene.m */; };
@@ -65,13 +71,7 @@
 		DCF473AC0F62C70800448FB1 /* TiledGridAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4733A0F62C70800448FB1 /* TiledGridAction.m */; };
 		DCF473AD0F62C70800448FB1 /* TileMapAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4733C0F62C70800448FB1 /* TileMapAtlas.m */; };
 		DCF473AE0F62C70800448FB1 /* Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4733E0F62C70800448FB1 /* Transition.m */; };
-		DCF473AF0F62C70800448FB1 /* cocoslive.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473410F62C70800448FB1 /* cocoslive.m */; };
-		DCF473B00F62C70800448FB1 /* ScoreServerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473430F62C70800448FB1 /* ScoreServerPost.m */; };
-		DCF473B10F62C70800448FB1 /* ScoreServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473450F62C70800448FB1 /* ScoreServerRequest.m */; };
 		DCF473B20F62C70800448FB1 /* DONORS in Resources */ = {isa = PBXBuildFile; fileRef = DCF473460F62C70800448FB1 /* DONORS */; };
-		DCF473B30F62C70800448FB1 /* MotionStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF473490F62C70800448FB1 /* MotionStreak.m */; };
-		DCF473B50F62C70800448FB1 /* Ribbon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4734C0F62C70800448FB1 /* Ribbon.m */; };
-		DCF473B60F62C70800448FB1 /* StreakTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4734E0F62C70800448FB1 /* StreakTest.m */; };
 		DCF473B70F62C70800448FB1 /* chipmunk-docs.html in Resources */ = {isa = PBXBuildFile; fileRef = DCF473510F62C70800448FB1 /* chipmunk-docs.html */; };
 		DCF473BA0F62C70800448FB1 /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = DCF473550F62C70800448FB1 /* chipmunk.c */; };
 		DCF473BB0F62C70800448FB1 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCF473570F62C70800448FB1 /* CMakeLists.txt */; };
@@ -107,22 +107,32 @@
 		1F3B9A820EF2151B00286867 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC05886B0FA4C73300B8C1AD /* cocos2d-iphone.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = "cocos2d-iphone.xcclassmodel"; sourceTree = "<group>"; };
+		DC05886D0FA4C76300B8C1AD /* cocoslive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoslive.h; sourceTree = "<group>"; };
+		DC05886E0FA4C76300B8C1AD /* cocoslive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoslive.m; sourceTree = "<group>"; };
+		DC05886F0FA4C76300B8C1AD /* ScoreServerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreServerPost.h; sourceTree = "<group>"; };
+		DC0588700FA4C76300B8C1AD /* ScoreServerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreServerPost.m; sourceTree = "<group>"; };
+		DC0588710FA4C76300B8C1AD /* ScoreServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreServerRequest.h; sourceTree = "<group>"; };
+		DC0588720FA4C76300B8C1AD /* ScoreServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreServerRequest.m; sourceTree = "<group>"; };
+		DC0588760FA4C78F00B8C1AD /* MotionStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionStreak.h; sourceTree = "<group>"; };
+		DC0588770FA4C78F00B8C1AD /* MotionStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionStreak.m; sourceTree = "<group>"; };
+		DC0588790FA4C78F00B8C1AD /* Ribbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ribbon.h; sourceTree = "<group>"; };
+		DC05887A0FA4C78F00B8C1AD /* Ribbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ribbon.m; sourceTree = "<group>"; };
+		DC05887B0FA4C78F00B8C1AD /* StreakTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreakTest.h; sourceTree = "<group>"; };
+		DC05887C0FA4C78F00B8C1AD /* StreakTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreakTest.m; sourceTree = "<group>"; };
+		DC0588960FA4C95E00B8C1AD /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		DC0588970FA4C95E00B8C1AD /* FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		DC0588990FA4C96A00B8C1AD /* CGPointExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointExtension.h; sourceTree = "<group>"; };
+		DC05889A0FA4C96A00B8C1AD /* CGPointExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPointExtension.m; sourceTree = "<group>"; };
+		DC05889C0FA4C98000B8C1AD /* ccArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccArray.h; sourceTree = "<group>"; };
+		DC0588A10FA4C9D600B8C1AD /* LICENSE.chipmunk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.chipmunk.txt; sourceTree = "<group>"; };
+		DC0588A30FA4CA2000B8C1AD /* README.experimental.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.experimental.txt; sourceTree = "<group>"; };
+		DC0588A50FA4CA3C00B8C1AD /* LICENSE.TouchJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TouchJSON.txt; sourceTree = "<group>"; };
 		DC663FA60F83B1AE000B3E49 /* AtlasSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSprite.h; sourceTree = "<group>"; };
 		DC663FA70F83B1AE000B3E49 /* AtlasSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSprite.m; sourceTree = "<group>"; };
 		DC663FA80F83B1AE000B3E49 /* AtlasSpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSpriteManager.h; sourceTree = "<group>"; };
 		DC663FA90F83B1AE000B3E49 /* AtlasSpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSpriteManager.m; sourceTree = "<group>"; };
-		DC663FAC0F83B23A000B3E49 /* README.experimental */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.experimental; sourceTree = "<group>"; };
-		DC663FC50F83B258000B3E49 /* MyOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenALSupport.h; sourceTree = "<group>"; };
-		DC663FC60F83B258000B3E49 /* PASoundListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundListener.h; sourceTree = "<group>"; };
-		DC663FC70F83B258000B3E49 /* PASoundListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundListener.m; sourceTree = "<group>"; };
-		DC663FC80F83B258000B3E49 /* PASoundMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundMgr.h; sourceTree = "<group>"; };
-		DC663FC90F83B258000B3E49 /* PASoundMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundMgr.m; sourceTree = "<group>"; };
-		DC663FCA0F83B258000B3E49 /* PASoundSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PASoundSource.h; sourceTree = "<group>"; };
-		DC663FCB0F83B258000B3E49 /* PASoundSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PASoundSource.m; sourceTree = "<group>"; };
-		DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.chipmunk; sourceTree = "<group>"; };
 		DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.chipmunk.txt; sourceTree = "<group>"; };
-		DC663FFC0F83B38E000B3E49 /* CocosNodeExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosNodeExtras.h; sourceTree = "<group>"; };
-		DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosNodeExtras.m; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBEF8E0F601EE20040855A /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
@@ -212,19 +222,7 @@
 		DCF4733C0F62C70800448FB1 /* TileMapAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapAtlas.m; sourceTree = "<group>"; };
 		DCF4733D0F62C70800448FB1 /* Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition.h; sourceTree = "<group>"; };
 		DCF4733E0F62C70800448FB1 /* Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition.m; sourceTree = "<group>"; };
-		DCF473400F62C70800448FB1 /* cocoslive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoslive.h; sourceTree = "<group>"; };
-		DCF473410F62C70800448FB1 /* cocoslive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoslive.m; sourceTree = "<group>"; };
-		DCF473420F62C70800448FB1 /* ScoreServerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreServerPost.h; sourceTree = "<group>"; };
-		DCF473430F62C70800448FB1 /* ScoreServerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreServerPost.m; sourceTree = "<group>"; };
-		DCF473440F62C70800448FB1 /* ScoreServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreServerRequest.h; sourceTree = "<group>"; };
-		DCF473450F62C70800448FB1 /* ScoreServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreServerRequest.m; sourceTree = "<group>"; };
 		DCF473460F62C70800448FB1 /* DONORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DONORS; sourceTree = "<group>"; };
-		DCF473480F62C70800448FB1 /* MotionStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionStreak.h; sourceTree = "<group>"; };
-		DCF473490F62C70800448FB1 /* MotionStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionStreak.m; sourceTree = "<group>"; };
-		DCF4734B0F62C70800448FB1 /* Ribbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ribbon.h; sourceTree = "<group>"; };
-		DCF4734C0F62C70800448FB1 /* Ribbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ribbon.m; sourceTree = "<group>"; };
-		DCF4734D0F62C70800448FB1 /* StreakTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreakTest.h; sourceTree = "<group>"; };
-		DCF4734E0F62C70800448FB1 /* StreakTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreakTest.m; sourceTree = "<group>"; };
 		DCF473510F62C70800448FB1 /* chipmunk-docs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "chipmunk-docs.html"; sourceTree = "<group>"; };
 		DCF473550F62C70800448FB1 /* chipmunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chipmunk.c; sourceTree = "<group>"; };
 		DCF473560F62C70800448FB1 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
@@ -358,13 +356,6 @@
 		DC663FC40F83B258000B3E49 /* sound-engine */ = {
 			isa = PBXGroup;
 			children = (
-				DC663FC50F83B258000B3E49 /* MyOpenALSupport.h */,
-				DC663FC60F83B258000B3E49 /* PASoundListener.h */,
-				DC663FC70F83B258000B3E49 /* PASoundListener.m */,
-				DC663FC80F83B258000B3E49 /* PASoundMgr.h */,
-				DC663FC90F83B258000B3E49 /* PASoundMgr.m */,
-				DC663FCA0F83B258000B3E49 /* PASoundSource.h */,
-				DC663FCB0F83B258000B3E49 /* PASoundSource.m */,
 			);
 			path = "sound-engine";
 			sourceTree = "<group>";
@@ -428,8 +419,13 @@
 		DCF473250F62C70800448FB1 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				DC05889C0FA4C98000B8C1AD /* ccArray.h */,
+				DC0588990FA4C96A00B8C1AD /* CGPointExtension.h */,
+				DC05889A0FA4C96A00B8C1AD /* CGPointExtension.m */,
 				DCF473260F62C70800448FB1 /* EAGLView.h */,
 				DCF473270F62C70800448FB1 /* EAGLView.m */,
+				DC0588960FA4C95E00B8C1AD /* FileUtils.h */,
+				DC0588970FA4C95E00B8C1AD /* FileUtils.m */,
 				DCF473280F62C70800448FB1 /* glu.c */,
 				DCF473290F62C70800448FB1 /* glu.h */,
 				DCF4732A0F62C70800448FB1 /* OpenGL_Internal.h */,
@@ -448,12 +444,12 @@
 		DCF4733F0F62C70800448FB1 /* cocoslive */ = {
 			isa = PBXGroup;
 			children = (
-				DCF473400F62C70800448FB1 /* cocoslive.h */,
-				DCF473410F62C70800448FB1 /* cocoslive.m */,
-				DCF473420F62C70800448FB1 /* ScoreServerPost.h */,
-				DCF473430F62C70800448FB1 /* ScoreServerPost.m */,
-				DCF473440F62C70800448FB1 /* ScoreServerRequest.h */,
-				DCF473450F62C70800448FB1 /* ScoreServerRequest.m */,
+				DC05886D0FA4C76300B8C1AD /* cocoslive.h */,
+				DC05886E0FA4C76300B8C1AD /* cocoslive.m */,
+				DC05886F0FA4C76300B8C1AD /* ScoreServerPost.h */,
+				DC0588700FA4C76300B8C1AD /* ScoreServerPost.m */,
+				DC0588710FA4C76300B8C1AD /* ScoreServerRequest.h */,
+				DC0588720FA4C76300B8C1AD /* ScoreServerRequest.m */,
 			);
 			path = cocoslive;
 			sourceTree = "<group>";
@@ -461,13 +457,13 @@
 		DCF473470F62C70800448FB1 /* experimental */ = {
 			isa = PBXGroup;
 			children = (
-				DC663FAC0F83B23A000B3E49 /* README.experimental */,
-				DCF473480F62C70800448FB1 /* MotionStreak.h */,
-				DCF473490F62C70800448FB1 /* MotionStreak.m */,
-				DCF4734B0F62C70800448FB1 /* Ribbon.h */,
-				DCF4734C0F62C70800448FB1 /* Ribbon.m */,
-				DCF4734D0F62C70800448FB1 /* StreakTest.h */,
-				DCF4734E0F62C70800448FB1 /* StreakTest.m */,
+				DC0588A30FA4CA2000B8C1AD /* README.experimental.txt */,
+				DC0588760FA4C78F00B8C1AD /* MotionStreak.h */,
+				DC0588770FA4C78F00B8C1AD /* MotionStreak.m */,
+				DC0588790FA4C78F00B8C1AD /* Ribbon.h */,
+				DC05887A0FA4C78F00B8C1AD /* Ribbon.m */,
+				DC05887B0FA4C78F00B8C1AD /* StreakTest.h */,
+				DC05887C0FA4C78F00B8C1AD /* StreakTest.m */,
 				DC663FC40F83B258000B3E49 /* sound-engine */,
 			);
 			path = experimental;
@@ -486,7 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				DCF473510F62C70800448FB1 /* chipmunk-docs.html */,
-				DC663FE00F83B2A2000B3E49 /* LICENSE.chipmunk */,
+				DC0588A10FA4C9D600B8C1AD /* LICENSE.chipmunk.txt */,
 				DC663FE10F83B2A2000B3E49 /* README.chipmunk.txt */,
 				DCF473540F62C70800448FB1 /* src */,
 			);
@@ -531,6 +527,7 @@
 		DCF473710F62C70800448FB1 /* TouchJSON */ = {
 			isa = PBXGroup;
 			children = (
+				DC0588A50FA4CA3C00B8C1AD /* LICENSE.TouchJSON.txt */,
 				DCF473720F62C70800448FB1 /* CDataScanner.h */,
 				DCF473730F62C70800448FB1 /* CDataScanner.m */,
 				DCF473740F62C70800448FB1 /* Extensions */,
@@ -571,6 +568,7 @@
 			isa = PBXGroup;
 			children = (
 				DCF473870F62C70800448FB1 /* fps_images.png */,
+				DC05886B0FA4C73300B8C1AD /* cocos2d-iphone.xcclassmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -580,8 +578,6 @@
 			children = (
 				DCF472FD0F62C70800448FB1 /* CocosNode.h */,
 				DCF472FE0F62C70800448FB1 /* CocosNode.m */,
-				DC663FFC0F83B38E000B3E49 /* CocosNodeExtras.h */,
-				DC663FFD0F83B38E000B3E49 /* CocosNodeExtras.m */,
 				DCF472F20F62C70800448FB1 /* AtlasNode.h */,
 				DCF472F30F62C70800448FB1 /* AtlasNode.m */,
 				DC663FA60F83B1AE000B3E49 /* AtlasSprite.h */,
@@ -707,9 +703,11 @@
 				DCF473D00F62C70800448FB1 /* LICENSE in Resources */,
 				DCF473D10F62C70800448FB1 /* README in Resources */,
 				DCF473D20F62C70800448FB1 /* fps_images.png in Resources */,
-				DC663FAD0F83B23A000B3E49 /* README.experimental in Resources */,
-				DC663FE20F83B2A2000B3E49 /* LICENSE.chipmunk in Resources */,
 				DC663FE30F83B2A2000B3E49 /* README.chipmunk.txt in Resources */,
+				DC05886C0FA4C73300B8C1AD /* cocos2d-iphone.xcclassmodel in Resources */,
+				DC0588A20FA4C9D600B8C1AD /* LICENSE.chipmunk.txt in Resources */,
+				DC0588A40FA4CA2000B8C1AD /* README.experimental.txt in Resources */,
+				DC0588A60FA4CA3C00B8C1AD /* LICENSE.TouchJSON.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,12 +758,6 @@
 				DCF473AC0F62C70800448FB1 /* TiledGridAction.m in Sources */,
 				DCF473AD0F62C70800448FB1 /* TileMapAtlas.m in Sources */,
 				DCF473AE0F62C70800448FB1 /* Transition.m in Sources */,
-				DCF473AF0F62C70800448FB1 /* cocoslive.m in Sources */,
-				DCF473B00F62C70800448FB1 /* ScoreServerPost.m in Sources */,
-				DCF473B10F62C70800448FB1 /* ScoreServerRequest.m in Sources */,
-				DCF473B30F62C70800448FB1 /* MotionStreak.m in Sources */,
-				DCF473B50F62C70800448FB1 /* Ribbon.m in Sources */,
-				DCF473B60F62C70800448FB1 /* StreakTest.m in Sources */,
 				DCF473BA0F62C70800448FB1 /* chipmunk.c in Sources */,
 				DCF473BC0F62C70800448FB1 /* cpArbiter.c in Sources */,
 				DCF473BD0F62C70800448FB1 /* cpArray.c in Sources */,
@@ -789,10 +781,14 @@
 				DCF473CF0F62C70800448FB1 /* CJSONSerializer.m in Sources */,
 				DC663FAA0F83B1AE000B3E49 /* AtlasSprite.m in Sources */,
 				DC663FAB0F83B1AE000B3E49 /* AtlasSpriteManager.m in Sources */,
-				DC663FD60F83B258000B3E49 /* PASoundListener.m in Sources */,
-				DC663FD70F83B258000B3E49 /* PASoundMgr.m in Sources */,
-				DC663FD80F83B258000B3E49 /* PASoundSource.m in Sources */,
-				DC663FFE0F83B38E000B3E49 /* CocosNodeExtras.m in Sources */,
+				DC0588730FA4C76300B8C1AD /* cocoslive.m in Sources */,
+				DC0588740FA4C76300B8C1AD /* ScoreServerPost.m in Sources */,
+				DC0588750FA4C76300B8C1AD /* ScoreServerRequest.m in Sources */,
+				DC05887D0FA4C78F00B8C1AD /* MotionStreak.m in Sources */,
+				DC05887F0FA4C78F00B8C1AD /* Ribbon.m in Sources */,
+				DC0588800FA4C78F00B8C1AD /* StreakTest.m in Sources */,
+				DC0588980FA4C95E00B8C1AD /* FileUtils.m in Sources */,
+				DC05889B0FA4C96A00B8C1AD /* CGPointExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

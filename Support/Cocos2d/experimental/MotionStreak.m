@@ -22,8 +22,7 @@
  */
 
 #import "MotionStreak.h"
-#import "Scheduler.h"
-#import "CocosNodeExtras.h"
+#import "cocos2d.h"
 
 @implementation MotionStreak
 
@@ -43,7 +42,7 @@
     mPath = path;
     mWidth = width;
     mTextureLength = length;
-    mLastLocation = cpvzero;
+    mLastLocation = CGPointZero;
     mColor = color;
     mRibbon = [Ribbon ribbonWithWidth: mWidth image:mPath length:mTextureLength color:color fade:fade];
     [self addChild:mRibbon];
@@ -57,8 +56,8 @@
 
 -(void)update:(ccTime)delta
 {
-	cpVect location = [self convertToWorldSpace:CGPointZero];
-  [mRibbon setPosition:cpv(-1*location.x, -1*location.y)];
+	CGPoint location = [self convertToWorldSpace:CGPointZero];
+  [mRibbon setPosition:ccp(-1*location.x, -1*location.y)];
   float len = sqrtf(powf(mLastLocation.x - location.x, 2) + powf(mLastLocation.y - location.y, 2));
   if (len > mSegThreshold)
   {

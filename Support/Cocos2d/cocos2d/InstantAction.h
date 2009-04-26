@@ -54,12 +54,12 @@
  */
 @interface Place : InstantAction <NSCopying>
 {
-	cpVect position;
+	CGPoint position;
 }
 /** creates a Place action with a position */
-+(id) actionWithPosition: (cpVect) pos;
++(id) actionWithPosition: (CGPoint) pos;
 /** Initializes a Place action with a position */
--(id) initWithPosition: (cpVect) pos;
+-(id) initWithPosition: (CGPoint) pos;
 @end
 
 /** Calls a 'callback'
@@ -78,7 +78,7 @@
 @end
 
 /** Calls a 'callback' with the node as the first argument
- * N means Node
+ /* N means Node
  */
 @interface CallFuncN : CallFunc
 {
